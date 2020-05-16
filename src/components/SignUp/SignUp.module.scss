@@ -1,0 +1,36 @@
+@import "src/styles/sass/vars";
+@import "src/styles/sass/mixins/rwd";
+@import "src/styles/sass/mixins/parent.scss";
+
+
+.register {
+
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__btn {
+    width: 100%;
+  }
+  &__btn_link{
+    margin-left: -1.4rem;
+   }
+  
+}
+
+.login {
+  text-align: center;
+}
+
+.icon{
+    &__grayColor {
+        color: $light-gray-color;
+    }
+    &__GreenColor{
+        color: $success-color;
+    }
+}
+
+.mobile_font{
+  font-size: 1.5rem;
+}

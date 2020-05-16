@@ -1,0 +1,39 @@
+@import "src/styles/sass/vars";
+@import "src/styles/sass/mixins/rwd";
+@import "src/styles/sass/mixins/parent.scss";
+
+
+.activate {
+
+  font-size: 1.2rem;
+  font-weight: 400;
+  :global{
+    h1.ant-typography{
+      font-size: 2rem;
+      color: $black;
+      text-align: center;
+      font-weight: bold;
+      line-height: 2;
+    }
+  }
+
+  width: 80%;
+  margin: auto;
+  background-color:$white;
+  padding: 20px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+
+
+  &__btn_link{
+    background: none! important;
+    border: none;
+    padding: 0!important;
+  }
+  &__btn {
+    width: 100%;
+  }
+}
+
+.mobile_font{
+  font-size: 1rem;
+}

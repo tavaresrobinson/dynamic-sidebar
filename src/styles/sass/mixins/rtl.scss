@@ -1,0 +1,5 @@
+@mixin rtl {
+  body[dir=rtl] & {
+    @content;
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"CHAR_LESS_THAN_50": "input should be less than 50 character",
+	"CHECK_TERMS_AND_POLICY": "Please check Terms of Service and Privacy Policy.!",
+	"FIELD_REQ": "This field is required",
+	"NOT_VALID_EMAIL": "The input is not valid E-mail!",
+	"NOT_VALID_PHONE": "The input is not valid Phone Number!",
+	"PASSWORD_DONT_MATCH": "The two passwords that you entered do not match!",
+	"GENERAL_ERROR": "Oops! Something went wrong! \n Help us improve your experience by sending an error report",
+	"INVALID_EMAIL_OR_PASSWORD": "Sorry! Invalid email or password.",
+	"ACCOUNT_DEACTIVATED": "Sorry! Your account has been deactivated. Please contact the system admin."
+}

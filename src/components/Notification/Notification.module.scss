@@ -1,0 +1,23 @@
+@import "src/styles/sass/vars";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  margin: 0 auto;
+
+  :global {
+    .ant-avatar {
+      background-color: $white;
+      margin: 4rem auto;
+      color: $black;
+    }
+  }
+
+  &__btn {
+    margin: 2rem auto;
+    padding: 0 3rem;
+  }
+
+}

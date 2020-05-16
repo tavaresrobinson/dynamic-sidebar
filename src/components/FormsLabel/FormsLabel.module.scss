@@ -1,0 +1,16 @@
+.FormsLabel {
+  &__col {
+    display: flex;
+    align-items: center;
+    &--no-padding {
+      padding: 0;
+    }
+
+    :global {
+      .anticon {
+        font-size: 4rem;
+        margin: 0 .4rem 0.5em;
+      }
+    }
+  }
+}

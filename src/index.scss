@@ -1,0 +1,28 @@
+/* autoprefixer grid: autoplace */
+@import-normalize;
+@import "styles/sass/mixins/rwd";
+@font-face {
+  font-family: "Univers Next Arabic";
+  font-style: normal;
+  src: url("assets/fonts/UniversNextArabic-Regular.woff2") format("woff2"),
+  url("assets/fonts/UniversNextArabic-Regular.woff") format("woff");
+}
+html{
+  font-size: 62.5%;
+  @include rwd('large-laptop'){
+    font-size: 50%;
+  }
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+

@@ -1,0 +1,70 @@
+.loader-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.2);
+}
+
+.site {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  font-weight: bold;
+  fill: #004028;
+  width: 140px;
+  height: 140px;
+}
+
+
+.lds-spinner {
+  display: inline-block;
+  width: 70px;
+  height: 134px;
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.animated {
+  animation: lds-spinner .8s linear infinite;
+  transform-origin: 30px 65px;
+}
+
+$deg: 70deg;
+$timer: .16s;
+
+@for $i from 1 through 3 {
+  .animated:nth-child(#{$i}) {
+    transform: rotate($deg);
+    animation-delay: $timer;
+  }
+
+  $deg: $deg+15;
+  $timer: $timer+.26;
+}
+
+.animated:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 34px;
+  top: -18px;
+  width: 7px;
+  height: 27px;
+  background: #004028;
+}
+
+
+@keyframes lds-spinner {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}

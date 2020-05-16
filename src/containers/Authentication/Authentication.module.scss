@@ -1,0 +1,16 @@
+@import "src/styles/sass/vars";
+@import "src/styles/sass/mixins/rtl";
+@import "src/styles/sass/mixins/rwd";
+
+.container{
+  margin-top: 9rem;
+  .logo{
+    width: 18rem;
+    height: 18rem;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+
+}

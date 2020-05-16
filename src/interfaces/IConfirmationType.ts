@@ -1,0 +1,1 @@
+export type IConfirmationType = 'resend' | 'confirmed' | 'recovered' | 'expired' | 'applied';
